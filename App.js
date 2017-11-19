@@ -3,6 +3,8 @@
  * https://github.com/facebook/react-native
  * @flow
  */
+import RNFirebase from 'react-native-firebase';
+
 
 import React, { Component } from 'react';
 import {
@@ -11,6 +13,13 @@ import {
   Text,
   View
 } from 'react-native';
+
+const configurationOptions = {
+  debug: false,
+  persistence: true,
+};
+
+const firebase = RNFirebase.initializeApp(configurationOptions);
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
@@ -21,6 +30,18 @@ const instructions = Platform.select({
 
 export default class App extends Component<{}> {
   render() {
+
+    let database = firebase.database();
+
+    let fireRef = database.ref('Noticias');
+    console.log(`fora temer`);
+    fireRef.on('value', (dataSnapshot) => {
+      console.log(`fora temer`);
+      dataSnapshot.forEach((child) => {
+        console.log(child.val());
+      });
+    });
+
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
