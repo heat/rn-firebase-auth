@@ -7,9 +7,9 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>566860187383-s44f2hkrh1cl0f8797io9df9l8fmopsh.apps.googleusercontent.com</string>
+	<string>566860187383-6rfpir91hp31urrpjb86e3f0f6toi25v.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.566860187383-s44f2hkrh1cl0f8797io9df9l8fmopsh</string>
+	<string>com.googleusercontent.apps.566860187383-6rfpir91hp31urrpjb86e3f0f6toi25v</string>
 	<key>API_KEY</key>
 	<string>AIzaSyB6Ifo0mihJrGVjG75YWPgQgMG_HJZFkGo</string>
 	<key>GCM_SENDER_ID</key>
@@ -17,7 +17,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>org.reactjs.native.example</string>
+	<string>org.reactjs.native.example.teste</string>
 	<key>PROJECT_ID</key>
 	<string>my-app-5c471</string>
 	<key>STORAGE_BUCKET</key>
@@ -33,7 +33,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:566860187383:ios:72ca130eb1ffc47a</string>
+	<string>1:566860187383:ios:e27ed4928f6b068d</string>
 	<key>DATABASE_URL</key>
 	<string>https://my-app-5c471.firebaseio.com</string>
 </dict>
